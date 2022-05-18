@@ -1,0 +1,21 @@
+/**
+ * @name rezOS
+ * @author Saltssaumure#7557 and stella#5234
+ * @description SUPERHOT piOS inspired theme. Edited by stella, to include nice colors and THE font. Now automatically updates, forever!
+ * @version Autoupdate
+ * @source https://github.com/Saltssaumure/pios-discord-theme
+ * @website https://discord.gg/9eAwJF8
+*/
+
+
+@import url('https://smolalli.github.io/Themes/MinimalMode/source.css');
+
+@import url("https://home.satellaview.dev/storage/piOStheme.css");
+
+@import url('https://home.satellaview.dev/fonts/rez.ttf');
+*{font-family: rez};
+:root
+{
+	--compact-message-spacing: 1; 	/* Space between messages in compact mode, ie. box mode. Default: 1 (100%) */
+	--accent-color:       17; 				/* Colour accent. Range: 0-360, default: 0 (red) */
+}
